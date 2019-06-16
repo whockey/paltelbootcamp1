@@ -8,6 +8,8 @@ const puppeteer = require('puppeteer');
 
   const page = await browser.newPage();
 
+///some comment for trail
+///new branch 
   await page.goto('https://visitpalestine.tech/jobs', {waitUntil: 'networkidle2'});
 
   const result = await page.evaluate(() => {
