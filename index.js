@@ -12,14 +12,14 @@ const puppeteer = require('puppeteer');
 
   const result = await page.evaluate(() => {
     let jobs = [];
-    
+
     document.querySelectorAll('.sqs-gallery-design-list-slide')
       .forEach(elem => {
         const description = elem.querySelector('.summary-title').innerText;
 
         jobs.push({
           title: description.match(/[^\(]*/)[0],
-          summary: description.match(/\(.*/)[0]
+          summary: description.match(/$\(.*/)[0]
         })
       })
     return jobs;
