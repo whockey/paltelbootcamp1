@@ -1,3 +1,5 @@
+console.log("Yes its work");
+
 const puppeteer = require('puppeteer');
 
 (async () => {
