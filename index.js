@@ -38,3 +38,6 @@ const puppeteer = require('puppeteer');
  // adding a coomient
 })();
 >>>>>>> 4121721d9a22029adc5e17f211ad2f1c6495df28
+add_number(x, y) {
+    return x+y;
+};
