@@ -19,7 +19,7 @@ const puppeteer = require('puppeteer');
 
         jobs.push({
           title: description.match(/[^\(]*/)[0],
-          summary: description.match(/\(.*/)[0]
+          summary: title: description.match(/\(.*/)[0]
         })
       })
     return jobs;
