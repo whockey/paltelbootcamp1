@@ -25,6 +25,7 @@ const puppeteer = require('puppeteer');
           title: description.match(/[^\(]*/)[0],
           summary: description.match(/$\(.*/)[0],
           author: "William"
+          //its not python
 
         })
       })
