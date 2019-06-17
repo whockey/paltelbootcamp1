@@ -32,9 +32,5 @@ const puppeteer = require('puppeteer');
 
   console.log(result)
   await browser.close();
-<<<<<<< HEAD
-})();
-=======
  // adding a coomient
 })();
->>>>>>> 4121721d9a22029adc5e17f211ad2f1c6495df28
