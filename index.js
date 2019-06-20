@@ -23,9 +23,8 @@ const puppeteer = require('puppeteer');
         const description = elem.querySelector('.summary-title').innerText;
 
         jobs.push({
-          title: description.match(/[^\(]*/)[0],
-          summary: description.match(/$\(.*/)[0],
-          author: "William"
+          Title: description.match(/[^\(]*/)[0],
+          Summary: description.match(/\(.*/)[0]
 
         })
       })
